@@ -1,0 +1,67 @@
+:root {
+    --primary: #248ea3;
+    --secondary: #E3E3E3;
+    --tertiary: #F6F6F6;
+    --black: #000;
+}
+
+.header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color: var(--primary);
+    color: var(--black);
+    padding: 2px 0px 4px 0px;
+}
+
+h1#cal-header {
+    font-weight: bolder;
+}
+
+h2#cal-header {
+    background-color: var(--secondary);
+    color: var(--black);
+    width: 100%;
+    padding: 6px 0px;
+    border-radius: 2px;
+}
+
+/* Exercise data input form with exercise name, weight (lb/kg toggle) input, sets, reps and enter button */
+
+.exercise-form {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10px;
+}
+.main-form {
+    background-color: var(--tertiary);
+    display: inline-flex;
+    /* currently page cannot be made smaller than minimum content size */
+    min-width:max-content; 
+    height:60px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    padding: 0px 10px;
+}
+button#submit-button {
+    background-color: var(--tertiary);
+    border-radius: 2px;
+}
+button#submit-button:hover {
+    background-color: #50C878;
+    border-left: 2px solid #90ee90;
+    border-top: 2px solid #90ee90;
+    border-right: 2px solid #006400;
+    border-bottom: 2px solid #006400;
+}
+
+.data-input {
+    max-width: 100px;
+}

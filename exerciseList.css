@@ -1,0 +1,53 @@
+.exercise-output-row, .data-output-row {
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle;
+}
+
+.column-header {
+    text-align: center
+}
+
+.exercise-name-data, .exercise-header {
+    width: 40px;
+    flex-grow: .75;
+}
+
+.weight-output, .weight-header {
+    flex-grow: .6;
+    width: 50px;
+}
+
+.sets-header, .reps-header {
+    flex-grow: .4;
+    width: 20px;
+    padding-left:5px;
+}
+
+.difficulty-header , .completed-header {
+    flex-grow: .25;
+}
+
+.sets-output, .reps-output, .difficulty-output, .completed-output {
+    flex-grow: .20;
+    width: 60px;
+}
+
+.column-header:last-child {
+    width: 40px;
+}
+
+.delete-button {
+    width: 30px;
+    margin-left: 10px;  
+    padding-left: 20px;
+    background-color: red; 
+    border: none;
+    padding: 6px 8px;
+    border-radius: 10%;
+}
+
+.delete-button:hover {
+    background-color: #C70039;
+    color: #eee;
+}
