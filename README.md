@@ -1,5 +1,6 @@
 # Exercise-Log-With-Database
 Daily Exercise Log Tracker
+
 Exercise Data Saved in MySQL Database (XAMPP Server / PHP PDO) 
 
 ## Future Enhancements
