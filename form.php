@@ -73,11 +73,11 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="form.css" type="text/css"/>
-  <link rel="stylesheet" href="exerciseList.css" type="text/css"/>
+  <link rel="stylesheet" href="styles/form.css" type="text/css"/>
+  <link rel="stylesheet" href="styles/exerciseList.css" type="text/css"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <style>
-    <?php include "exerciseList.css"; include "form.css"?>
+    <?php include "styles/exerciseList.css"; include "styles/form.css"?>
   </style>
 </head>
 <body>
