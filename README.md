@@ -2,7 +2,7 @@
 Daily Exercise Log Tracker
   
   
-  <em>/tfor logging weight / strength training exercises over time<em>
+  <em>\tfor logging weight / strength training exercises over time<em>
 
 Exercise Data Saved in MySQL Database (XAMPP Server / PHP PDO) 
 
