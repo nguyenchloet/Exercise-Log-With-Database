@@ -1,5 +1,6 @@
 # Exercise-Log-With-Database
 Daily Exercise Log Tracker
+  <em>for logging weight / strength training exercises over time<em>
 
 Exercise Data Saved in MySQL Database (XAMPP Server / PHP PDO) 
 
