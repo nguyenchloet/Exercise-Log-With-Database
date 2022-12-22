@@ -1,6 +1,6 @@
 # Exercise-Log-With-Database
 Daily Exercise Log Tracker
- - <em>for logging weight / strength training exercises over time<em>
+ - for logging weight / strength training exercises over time
  - exercise data: string id, string exercise name, double weight (lb / kg), int sets, int reps, int difficulty, bool completed
 
 Exercise Data Saved in MySQL Database (XAMPP Server / PHP PDO) 
