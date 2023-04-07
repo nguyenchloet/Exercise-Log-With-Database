@@ -1,8 +1,10 @@
-# Exercise-Log-With-Database
-Daily Exercise Log Tracker
+# Exercise-Log-With-Database Version 1
+Daily Exercise Log Tracker Basic SQL Web App
+ 
+ - using XAMPP - Apache Server, data stored in MySQL, PHP PDO database access
+
  - for logging weight / strength training exercises over time
  - exercise data: string id, string exercise name, double weight (lb / kg), int sets, int reps, int difficulty, bool completed
- - using XAMPP - Apache Server, data stored in MySQL, PHP PDO database access
 
 ## Future Enhancements
 - Upgrade from localhost to secure host provider and export database
